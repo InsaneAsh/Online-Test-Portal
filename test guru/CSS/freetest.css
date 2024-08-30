@@ -1,0 +1,145 @@
+.parent-navigation-tab{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1rem;
+}
+.parent-navigation-tab button{
+    height: 5rem;
+    width: 10rem;
+    font-size: 2.5rem;
+}
+.serch-bar-input{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    
+}
+
+ input[type="text"]{
+    margin: 1rem;
+    width: 80%;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.parent-ongoing-test-details{
+    width: 97%;
+    height: 6rem;
+    margin: 2rem;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ongoing-test-details{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.ongoing-test-details div div{
+    color: rgb(233, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    width: 20rem;
+    height: 5rem;
+    border: 0.2rem solid balck;
+    border-radius: 1rem;
+}
+
+
+.attempt-btn-inner{
+    background-color: rgb(68, 159, 244);    
+    color: white !important;
+}
+.attempt-btn-inner:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* for instruction modal */
+
+#for-hide-modal{
+    display: none;
+}
+.modal-parent{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+.child-modal{
+    height: 70%;
+    width: 50%;
+    background-color: rgb(236, 236, 236);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 0.1rem solid rgb(111, 111, 111);
+    border-radius: .5rem;
+    
+}
+.for-closing{
+    width: 97%;
+    float: right;
+    margin-top: .5rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#for-closing:hover, #for-closing:focus{
+    cursor: pointer;
+}
+.for-closing div{
+    width: 50%;
+}
+.close-instruction-tab{
+    display: flex;
+    justify-content: end;
+}
+.written-instruction{
+    height: 75%;
+    width: 97%;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    overflow-y: scroll;
+}
+.instruction-btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.instruction-btn-div a{
+    width: 100%;
+    margin-left: 4rem;
+}
+.instruction-next-btn{
+    width: 90%;
+    height: 2.9rem;
+    margin: 0 auto;
+}
+.instruction-next-btn:hover{
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(51, 201, 238);
+}

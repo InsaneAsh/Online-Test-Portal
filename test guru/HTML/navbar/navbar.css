@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root-container{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    position: relative;
+}
+.navbar-container{
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    background-color: rgba(7, 190, 246, 0.865);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navbar span{
+    display: block;
+    font-size: 3rem;
+}
+.navbar i{
+    display: block;
+    font-size: 3rem;
+    font-style: normal;
+    
+}
